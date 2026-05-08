@@ -1,0 +1,63 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background: #2c3e50; 
+    color: white; 
+    margin-top: 20px;
+}
+
+#board { 
+    width: 400px; 
+    margin: 10px 0; 
+}
+
+.controls { 
+    margin: 10px; 
+    padding: 15px; 
+    background: #34495e; 
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+select, button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+button { 
+    background: #3498db; 
+    color: white; 
+    font-weight: bold; 
+}
+
+button:hover { 
+    background: #2980b9; 
+}
+
+.status { 
+    font-weight: bold; 
+    color: #f1c40f; 
+}
+
+/* Graveyard Styles */
+.graveyard { 
+    width: 400px; 
+    min-height: 40px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    background: #1a252f; 
+    border-radius: 4px; 
+    padding: 5px; 
+    box-sizing: border-box; 
+}
+
+.graveyard img { 
+    width: 35px; 
+    height: 35px; 
+    margin-right: 2px; 
+}
